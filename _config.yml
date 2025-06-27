@@ -14,14 +14,11 @@ timezone: Asia/kathmandu
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Safal Lama # the main title    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
-[2025-06-27 17:19:05] ERROR '/.well-known/appspecific/com.chrome.devtools.json' not found.
+title: Safal Lama # the main title
 
 tagline: Simple Good Human Being! # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-   Technical & Experimental writing page of Safal Lama.
+description: "Technical & Experimental writing page of Safal Lama."
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

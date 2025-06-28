@@ -4,7 +4,10 @@ date: 2025-06-27 11:33:00 +0800
 categories: [DSA, SPA]
 tags: [BFS, Dijkstra, Graph]
 description: Shortest path algorithm using Dijkstra
-image: /assets/spf/dijkastra.png
+image:
+  path: /assets/spf/dijkastra.png
+  lqip: data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAgCdASoQABIAPxFysFAsJqSisAgBgCIJaQAAfEEAAP7vh2CX0swA
+  alt: Responsive rendering of Chirpy theme on multiple devices.
 pin: true
 math: true
 mermaid: true
@@ -12,7 +15,7 @@ mermaid: true
 
 # Dijkstra's Algorithm
 
-![safal](/assets/sae.jpg){: width="972" height="589" .w-50 .right}
+![safal](/assets/sae.jpg){: .shadow }{: width="972" height="589" .w-50 .right}
 Dijkstra's Algorithm is a **shortest path algorithm** that is widely used to find the minimum cost path from a source node to all other nodes in a graph. It's especially useful in scenarios like **network routing**, where optimal paths between routers must be computed. 
 During my exploration, I came across the use of Dijkstra's Algorithm in **OSPF (Open Shortest Path First)** — a dynamic routing protocol that uses this algorithm under the hood to determine the most efficient routes.
 ## What I Learned About this Algorithm
@@ -120,7 +123,7 @@ fn djax(graph:&Graph, start:usize)->Vec<usize>{
 
 Here’s the output from the terminal:
 
-![result](/assets/spf/result.png)
+![result](/assets/spf/result.png){: .shadow }
 
 It shows the shortest distance from **node A (0)** to all other nodes.
 

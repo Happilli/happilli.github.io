@@ -15,7 +15,7 @@ mermaid: true
 
 # Dijkstra's Algorithm
 
-![safal](/assets/sae.jpg){: .shadow }{: width="972" height="589" .w-50 .right}
+![safal](/assets/teaching.svg){: width="972" height="589" .w-50 .right}
 Dijkstra's Algorithm is a **shortest path algorithm** that is widely used to find the minimum cost path from a source node to all other nodes in a graph. It's especially useful in scenarios like **network routing**, where optimal paths between routers must be computed. 
 During my exploration, I came across the use of Dijkstra's Algorithm in **OSPF (Open Shortest Path First)** — a dynamic routing protocol that uses this algorithm under the hood to determine the most efficient routes.
 ## What I Learned About this Algorithm
